@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "importHelpers": true,
+        "target": "es6",
+        "module": "CommonJS",
+        "lib": ["es2018"],
+        "downlevelIteration": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "outDir": "./lib",
+        "sourceMap": true,
+        "declaration": true
+    },
+    "exclude": [
+        "node_modules",
+        // If you remove both of these values below, it wil not build
+        "./lib",
+        "**/*.d.ts"
+    ]
+}
